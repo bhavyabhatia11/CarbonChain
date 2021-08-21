@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- ADAPTED FROM TEMPLATE at https://unpkg.com/-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carbon Clothing</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename = 'images/favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body class="is-boxed has-animations" style="height: 100%;">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="header-links m-0">
+                            <a href="#">
+                                Home
+                            </a>
+                    </div>
+                    <ul class="header-links list-reset m-0">
+                        <li>
+                            <a href="/login">Login</a>
+                        </li>
+                        <li>
+                            <a class="button button-sm button-shadow" href="/register">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero text-light text-center">
+                <div class="container-lg">
+                    <div >
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing" style="visibility: visible;">CarbonCredit Exchange for Apparel Industry</h1>
+                        <p class="hero-paragraph is-revealing" style="visibility: visible;">This is a prototype of a carbon credit network built over blockchain implemented using python and flask. It aims to incentivise Recycling of clothing products by a reward point system. This prototype was buit for the partial fulfillment of the course MF-412 Sustainable Manufacturing. For more details read the project report.  </p>
+
+                       
+                       
+                    </div>
+                    <div>
+                        <p class="hero-cta is-revealing" style="visibility: visible;"><a class="button button-primary button-shadow" href="/register">Get started now</a>
+                            <a class="button button-secondary button-shadow" href="https://drive.google.com/file/d/1Gax7NPZbpQ2Ec-tikSosgcN10L16Fxwq/view">Report</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                  <span>Copyright © Carbon Clothing 2021</span>
+                </div>
+              </div>
+        </footer>
+    </div>
+    <script src="/static/dist/js/main.min.js"></script>
+
+</body>
+</html>
